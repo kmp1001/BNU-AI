@@ -12,15 +12,6 @@ This open-source project aims to provide comprehensive and up-to-date course inf
 - **Supplementary Resources:** The project includes links and references to past exam papers, online course materials (MOOCs), and additional practice questions.
 - **Living Document:** This repository is regularly updated as new courses or updated information becomes available, ensuring that students have access to the latest academic guidelines.
 
-### Courses Included
-The project currently covers the following mandatory courses:
-1. **Introduction to Computer Systems**  
-2. **Database Systems**  
-3. **Algorithm Design and Analysis**  
-4. **Fundamentals of Mathematics for Artificial Intelligence**  
-5. **Knowledge Representation and Processing**  
-6. **Computer Organization and Architecture**  
-7. **Fundamentals of Information Security**
 
 Each course entry is structured to help students quickly understand course requirements and effective study strategies. We welcome contributions, feedback, and suggestions from the community to continuously improve this resource.
 
@@ -43,12 +34,8 @@ Each course entry is structured to help students quickly understand course requi
 2. **数据库系统**  
 3. **算法设计与分析**  
 4. **人工智能数学基础**  
-5. **知识表示与处理**  
-6. **计算机组成与结构**  
-7. **信息安全基础**
+5. **线性代数及其应用**  
+6. **面向对象方法与技术**  
 
 每门课程的信息均以易于阅读和查找的方式呈现，旨在帮助学生迅速了解各门课程的要求及学习重点。欢迎广大同学、老师以及开发者贡献建议和反馈，共同完善这一资源。
 
----
-
-Feel free to explore, contribute, and use this resource to support your academic journey in Artificial Intelligence!
