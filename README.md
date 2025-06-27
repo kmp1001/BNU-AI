@@ -1,26 +1,10 @@
 # AIoBNU
 
-
-# Beijing Normal University, School of Artificial Intelligence  
-## Undergraduate Courses for the Artificial Intelligence Major
-
-This open-source project aims to provide comprehensive and up-to-date course information for undergraduate students majoring in Artificial Intelligence at the School of Artificial Intelligence, Beijing Normal University. The repository collects details about the core professional courses offered during the sophomore second semester, including course outlines, recommended textbooks, grading schemes, exam formats, study suggestions, and additional resources.
-
-### Key Features
-- **Detailed Course Information:** Each course description covers essential elements such as teaching materials (both Chinese and English where applicable), grading breakdowns (class performance, labs, and examinations), and exam tips.
-- **Learning Suggestions:** Practical advice is provided for each course, helping students focus on critical aspects of the curriculum and prepare effectively for assessments.
-- **Supplementary Resources:** The project includes links and references to past exam papers, online course materials (MOOCs), and additional practice questions.
-- **Living Document:** This repository is regularly updated as new courses or updated information becomes available, ensuring that students have access to the latest academic guidelines.
-
-
-Each course entry is structured to help students quickly understand course requirements and effective study strategies. We welcome contributions, feedback, and suggestions from the community to continuously improve this resource.
-
----
-
 # 北京师范大学人工智能学院  
 ## 人工智能专业本科生课程信息
 
 本开源项目旨在为北京师范大学人工智能学院人工智能专业的本科生提供全面且最新的课程信息。仓库中收录了大二下学期专业必修课的详细内容，包括课程大纲、推荐教材、成绩构成、考试形式、学习建议以及相关辅助资料。
+我开源的目的希望带给大家一些自己考试的心得，更多从方法论上给予指导，事实上老师讲课与考试和给分截然是两副模样，希望这个开源仓库可以带给大家一些信息，本仓库不提供任何题目等的解析，题目相关的内容请自己制定答案，谢谢理解，如果是为了取得及格，可能这个仓库帮助有限，如果是为了冲击高分，那你来对位置了~~
 
 ### 主要特点
 - **详细的课程信息：** 每门课程均提供了教材信息（中英文版）、成绩构成（平时成绩与期末考试）、考试题型及注意事项等核心内容。
@@ -35,7 +19,17 @@ Each course entry is structured to help students quickly understand course requi
 3. **算法设计与分析**  
 4. **人工智能数学基础**  
 5. **线性代数及其应用**  
-6. **面向对象方法与技术**  
-
+6. **面向对象方法与技术**
+7.  **人工智能伦理与治理**
+8.  **计算机视觉**
+9.  **自然语言处理**
+10.  **信息安全基础**
+11.  **类脑与认知计算**
+12.  **模式识别**
+13.  **数字信号处理**
+14.  **软件工程**
+15.  **教育数字化**
+16.  **虚拟现实与人机交互**
+17.  **数据可视化**
 每门课程的信息均以易于阅读和查找的方式呈现，旨在帮助学生迅速了解各门课程的要求及学习重点。欢迎广大同学、老师以及开发者贡献建议和反馈，共同完善这一资源。
 
