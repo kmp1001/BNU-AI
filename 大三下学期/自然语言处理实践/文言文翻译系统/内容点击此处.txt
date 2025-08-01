@@ -1,0 +1,20 @@
+第一讲：开发环境，语料预处理与词语对齐：
+https://tcnqt0aj39oa.feishu.cn/docx/S0AQdlGTJo4sOvxL1ZkcXRnSnlb
+
+第二讲： 短语抽取：
+https://lcn2llusg872.feishu.cn/docx/CCfodnnYPoCTkgx6qzUcMotmnCf
+
+第三讲：重排序模型和N元语法 
+https://l08se6f4eqq.feishu.cn/docx/EOJ0dNsHaoM2vwxKRIucYJFhnZg
+
+第四讲：翻译解码与调参
+https://l08se6f4eqq.feishu.cn/docx/KofrdNT7QoCH5zxKyxbcwHnJn2d
+
+第五讲：翻译质量评价
+https://lcn2llusg872.feishu.cn/docx/YKE5dJc5mo59DyxxXozcpDLLnzf
+
+第六讲：神经机器翻译
+https://lcn2llusg872.feishu.cn/docx/RHeHd3WyOowzpzxR6eFcyPspnUg?from=from_copylink
+
+第七讲：Demo实现
+https://jxcyafub2un.feishu.cn/docx/KyLddBrlmobOgcx2onfc99t2nee
