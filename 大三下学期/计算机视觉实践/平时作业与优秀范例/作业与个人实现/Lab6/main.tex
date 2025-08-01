@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx} % Required for inserting images
+
+\title{paper}
+\author{Alex Dickinson}
+\date{March 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Preliminaries}
+
+\subsection{State Space Models (SSMs)}
+
+State Space Models (SSMs) have recently garnered significant attention due to their ability to efficiently capture long-range dependencies with linear computational complexity relative to input size. A continuous-time linear SSM can be expressed as follows:
+\begin{equation}
+\frac{d}{dt}h(t)=Ah(t)+Bx(t), \quad y(t)=Ch(t)+Dx(t),
+\end{equation}
+where \(h(t)\in\mathbb{R}^{N}\) represents the hidden state, \(x(t)\) denotes the input signal, \(y(t)\) is the output, and matrices \(A,B,C,D\) are learnable parameters defining the system dynamics.
+
+For deep learning purposes, SSMs are discretized using methods such as Zero-Order Hold (ZOH), resulting in:
+\begin{equation}
+h_k=\bar{A}h_{k-1}+\bar{B}x_k,\quad y_k=Ch_k+Dx_k,
+\end{equation}
+where discretized matrices \(\bar{A},\bar{B}\) are computed as:
+\begin{equation}
+\bar{A}=e^{\Delta A},\quad\bar{B}=(\Delta A)^{-1}(e^{\Delta A}-I)B,
+\end{equation}
+with \(\Delta\) denoting the discretization step size.
+
+Discrete SSMs can be efficiently parallelized through convolution operations:
+\begin{equation}
+y = x\otimes K,\quad K=(C\bar{B},\,C\bar{A}\bar{B},\,\dots,\,C\bar{A}^{L-1}\bar{B}),
+\end{equation}
+where \(\otimes\) represents convolution, significantly accelerating inference and training, particularly for high-resolution vision tasks such as nighttime lens flare removal.
+
+\subsection{Long-term Decay Property and Limitations of SSMs}
+
+Despite their computational efficiency, standard SSM architectures exhibit a critical limitation termed the \textbf{long-range forgetting issue}. Formally, the contribution of an earlier token \(m\) to a later token \(n\) (with \(m<n\)) is expressed as:
+\begin{equation}
+C_n\prod_{i=m}^{n}\bar{A}_i\bar{B}_m = C_n\bar{A}_{(m\to n)}\bar{B}_m,\quad\text{where}\quad\bar{A}_{(m\to n)}=e^{\sum_{i=m}^{n}\Delta_i A}.
+\end{equation}
+
+Typically, the learned parameters \(\Delta_i A\) are negative-valued, causing the exponential term
+\begin{equation}
+e^{\sum_{i=m}^{n}\Delta_i A}
+\end{equation}
+to diminish rapidly as the distance \((n - m)\) increases. This exponential decay substantially weakens the impact of distant tokens, severely constraining the model’s capability to capture long-range contextual information crucial in complex image restoration tasks.
+
+Although this issue can theoretically be mitigated by increasing the number of parameters or the depth of the SSM-based architectures, such adjustments inevitably introduce significant computational overhead and memory burdens, which are particularly problematic in processing high-resolution images.
+
+Moreover, the intrinsic causal property inherent in typical discrete SSMs further restricts their representational flexibility. Specifically, the information flow within standard SSM blocks is strictly unidirectional, propagating exclusively from past tokens to future tokens. Consequently, earlier tokens cannot utilize any contextual information derived from subsequent tokens, fundamentally limiting their ability to model complex global interactions effectively.
+
+These inherent limitations—namely, the long-range forgetting issue and strict causality—pose significant challenges when applying standard SSM architectures to nighttime lens flare removal, which often involves sophisticated global dependencies and bidirectional contextual correlations. Thus, addressing these limitations motivates the development of enhanced modeling strategies and improved architectural designs.
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+

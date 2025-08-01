@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['bottle', 'can']
+
+roboflow:
+  workspace: qqdengws
+  project: beverage3
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/qqdengws/beverage3/dataset/3
