@@ -151,4 +151,5 @@ https://zhanghongwen.cn/aw/
 - Grammarly / LanguageTool  
 - 学术英语表达参考（顶会论文拆解）  
 
-
+## 八、成绩录入速度
+- 中等
