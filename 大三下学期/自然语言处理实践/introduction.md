@@ -10,6 +10,6 @@
 ![第一课-课程介绍-智能问答-研发思路(2)_08](https://github.com/user-attachments/assets/4864cf49-4ff7-457a-98c9-53a1cd8ed582)
 ![第一课-课程介绍-智能问答-研发思路(2)_09](https://github.com/user-attachments/assets/2d243cc7-910b-44bf-9410-abe0bc8ee635)
 
-## 给分还可以，需要做出创新，有好的代码习惯和展示素养
+## 给分还可以，需要做出创新，有好的代码习惯和展示素养，课程最高分：94
 ## 成绩录入速度
 - 中等
